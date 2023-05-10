@@ -1,0 +1,22 @@
+{
+  "name": "koishi-plugin-koishi-api",
+  "description": "向外暴露koishi的api",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.12.4",
+    "@koishijs/plugin-adapter-onebot": "^5.6.6"
+  }
+}
